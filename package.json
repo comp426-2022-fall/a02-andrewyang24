@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Assignment that creates a command line Node.js package that ingests API data from Open-Meteo",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a02-andrewyang24/issues"
   },
-  "homepage": "https://github.com/comp426-2022-fall/a02-andrewyang24#readme"
+  "homepage": "https://github.com/comp426-2022-fall/a02-andrewyang24#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.37",
+    "node-fetch": "^3.2.10"
+  }
 }
