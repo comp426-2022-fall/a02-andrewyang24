@@ -1,0 +1,19 @@
+{
+  "name": "a02",
+  "version": "1.0.0",
+  "description": "Assignment that creates a command line Node.js package that ingests API data from Open-Meteo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a02-andrewyang24.git"
+  },
+  "author": "andrewyang24",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a02-andrewyang24/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a02-andrewyang24#readme"
+}
